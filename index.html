@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Exam 2 Problem</title>
+    <link rel="stylesheet" type="text/css" href="styles/Exam2problem.css"/>
+    <script src="js/Exam2problem.js"></script>
+</head>
+
+<body>
+    <section id="catmenuopt">
+     <h1>Category Service</h1>
+     <hr>
+        <select onchange="CatMenuChoice()" id="catmenu">
+                <option>Please Select An Option</option>
+                <option>Category List</option>
+                <option>Create Category</option>
+                <option>Update Category Description</option>
+                <option>Delete Category</option>
+                <option>About Me</option>
+        </select>
+     <hr>    
+    </section>
+    
+    <section id="catlist1">
+       <button onclick="GetCatList()" id="list">Get Category List</button>
+        <div class="divelement1">
+        <br>
+        <label id="catlistdisplay">Display list of categories here</label>
+        <br>
+        <hr>    
+        </div>  
+    </section>
+    
+    
+    <section id="createcat2">
+     <br>
+     <label>Please Enter Category Name: </label>
+     <input type="text" id="catname">
+     <br>
+     <label>Please Enter the Category Description: </label>
+     <input type="text" id="catdesc">
+     <br>
+     <button onclick="CreateCat()" id="newcat">Add a New Category & Description</button>
+     <br>
+     <br>
+    <div class="divelement1">
+        <label id="result">The operation's result will display here.</label>   
+    </div>
+    <hr>
+    </section>
+    
+    
+    <section id="updatecat3">
+     <br>
+     <label>Please Enter Category ID: </label>
+     <input type="text" id="catid">
+     <br>
+     <label>Please Enter the Category Description: </label>
+     <input type="text" id="newcatdesc">
+     <br>
+     <button onclick="UpdateCatDesc()" id="newcat">Update the Category Description</button>
+     <br>
+     <br>
+    <div class="divelement2">
+        <label id="catresult">The operation's result will display here.</label>   
+    </div>
+    <hr>  
+    </section>
+    
+    
+    <section id="deletecat4">
+     <br>
+     <label>Please Enter Category ID That You Wish To Delete: </label>
+     <input type="text" id="catident">
+     <br>
+     <button onclick="DelCategory()" id="deletecust">Delete Category</button>
+     <br>
+     <br>
+     <div class="divelement4">
+        <label id="delresult">The category deletion operation's result will display here.</label>    
+     </div>
+     <hr>
+    </section>
+    
+    
+    <section id="about5">
+       <button onclick="GetAbout()" id="list">Get About Me</button>
+        <div class="divelement5">
+        <br>
+        <label id="aboutmedisplay">Display about me section here</label>
+        <br>
+        <hr>    
+        </div>  
+    </section>
+
+
+
+</body>
+</html>
