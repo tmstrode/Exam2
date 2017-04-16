@@ -1,0 +1,64 @@
+
+#divelement1 {overflow: scroll;}
+#divelement2 {overflow: scroll;}
+#divelement3 {overflow: scroll;}
+#divelement4 {overflow: scroll;}
+#divelement5 {overflow: scroll;}
+
+#result {background-color: #90EE90; }
+#catresult {background-color: #ADD8E6;}
+#delresult {background-color: #FFA500;}
+
+#catlist1
+    {
+        display: none;
+        overflow: scroll;
+        width: 600px;
+        height: 250px;
+        float: left;
+        position: absolute;
+        
+    }
+
+#createcat2
+    {
+        display: none;
+        overflow: scroll;
+        width: 600px;
+        height: 250px;
+        float: left;
+        position: absolute;
+    }
+    
+#updatecat3
+    {
+        display: none;
+        overflow: scroll;
+        width: 600px;
+        height: 250px;
+        float: left;
+        position: absolute;
+        
+    }
+    
+#deletecat4
+    {
+        display: none;
+        overflow: scroll;
+        width: 600px;
+        height: 250px;
+        float: left;
+        position: absolute;
+        
+    }
+    
+#about5
+    {
+        display: none;
+        overflow: scroll;
+        width: 600px;
+        height: 250px;
+        float: left;
+        position: absolute;
+        
+    }
